@@ -1,8 +1,8 @@
 # Source Code / Query Logic:
 
 let
-//Replace source folder if needed
-SourceFolder = Web.Contents("https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/data/"),
+    //Replace source folder from you local folder or repository
+    SourceFolder = "C:\Users\shibn\Desktop\labc-ds-data-pack\labc-ds-assignment\data\",
 
     CleanText = (x as any) as text =>
         let
